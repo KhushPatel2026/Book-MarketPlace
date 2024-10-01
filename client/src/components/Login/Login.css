@@ -1,0 +1,82 @@
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    height: 450px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .login-container label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+  
+  .login-container button[type="submit"] {
+    margin-top: 86px;
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container button[type="submit"]:hover {
+    background-color: #e9ecef;
+    color: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .login-container p {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  .login-container p button {
+    margin-left: 4px;
+    color: #000000;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+  
+  .login-container p button:hover {
+    text-decoration: none;
+  }
+  

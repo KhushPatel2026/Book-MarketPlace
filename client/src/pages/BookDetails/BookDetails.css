@@ -1,0 +1,68 @@
+.bookdetails-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 32px;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 1px solid #ced4da;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 390px;
+    height: 530px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.bookdetails-container img{
+    height: 490px !important;
+    width: 350px !important;
+}
+
+.details {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .details p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .details button {
+    margin-top: 10px;
+    height: 48px;
+    width: 93%;
+    padding: 8px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .details button:hover {
+    background-color: #e9ecef;
+    color: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  

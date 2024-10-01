@@ -1,0 +1,24 @@
+.filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}

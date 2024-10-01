@@ -1,0 +1,32 @@
+.cpp-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 32px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ced4da;
+  border-radius: 12px;
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+}
+
+.cpp-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cpp-box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 32px;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+}

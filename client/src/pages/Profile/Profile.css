@@ -1,0 +1,198 @@
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .recent-transactions,
+  .update-profile {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(45% - 10px); /* Adjust as needed */
+  }
+
+  .profile-box{
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+  }
+  
+  .user-wallet {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .user-wallet h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .user-wallet p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+  }
+  
+  .update-profile {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+  }
+  
+  .update-profile h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .update-profile form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-profile label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .update-profile input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 50px;
+    font-size: 16px;
+  }
+  
+  .update-profile button {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-profile button:hover {
+    background-color: #e9ecef;
+    color: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .signup-error {
+    font-size: 14px;
+    color: #ff0000;
+    margin-top: 10px;
+  }
+
+  .recent-transactions{
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    width: 65%;
+    margin-right: 10px;
+  }
+
+  .recent-box{
+    width: 100%;
+    max-width: 1500px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    height: 744.8px;
+  }
+
+  .add-book{
+    width: 100%;
+    max-width: 1500px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    margin-bottom: 20px;;
+    height: 115.6px;
+  }
+
+  .add-book h2{
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+
+  .add-book button {
+    height: 38px;
+    width: 47%;
+    padding: 8px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .add-book button:hover {
+    background-color: #e9ecef;
+    color: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  .transaction-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transaction-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .transaction-details {
+    /* Additional styling for transaction details */
+  }
+  
+  .buyer {
+    color: green;
+  }
+  
+  .seller {
+    color: red;
+  }
+
+  .completed{
+    color: green;
+  }
+
+  .pending{
+    color: black;
+  }
+
+  .failed{
+    color: red;
+  }
+  

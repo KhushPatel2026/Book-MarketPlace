@@ -1,0 +1,132 @@
+.addbook-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 31.2px;
+    height: 870px;
+}
+
+.overall-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    flex: 1;
+}
+
+.input-box {
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+}
+
+.addbook-label {
+    margin-left: 2px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333333;
+}
+
+.addbook-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.addbook-container button{
+    height: 48px;
+    width: 93%;
+    padding: 8px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addbook-container button:hover {
+    background-color: #e9ecef;
+    color: #000000;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+.addbook-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.description {
+    height: 100px;
+    padding: 20px;
+}
+
+.image-box {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.addbook-label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #aaa;
+    height: 450px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.file-upload.drag-over {
+    border-color: #2196F3;
+}
+
+.file-input {
+    display: none;
+}
+
+.upload-text {
+    font-size: 16px;
+}
+
+.image-preview {
+    margin: 10px;
+}
+
+.image-preview img {
+    max-width: 100%;
+    height: 430px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
